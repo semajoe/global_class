@@ -1,0 +1,19 @@
+/* h1{
+	font-size: 85px;
+}
+
+  body {
+    background-image: url('img/logo');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.blink{
+	animation: blink 1s infinite alternate;
+}
+@keyframes blink{
+	0%{transform: translateX(0);
+}100%{ transform: translateX(20px);}}
+body{
+	background-color: cornflowerblue;
+} */
