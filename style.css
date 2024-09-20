@@ -6,9 +6,11 @@
 }
 
 html, body {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background: #3498db;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -34,6 +36,12 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+nav ul li a:hover{
+    color: bisque;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .menu-icon {
     display: none;
@@ -92,6 +100,16 @@ h1, h2 {
     color: bisque;
 }
 
+footer {
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    padding: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #004274;
+
+}
 
 
 
